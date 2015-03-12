@@ -3,7 +3,7 @@
 
 
 
-// backets do not create function scope
+// brackets do not create a function scope
 
 var animal = "dog";
 {

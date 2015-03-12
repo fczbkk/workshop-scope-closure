@@ -3,7 +3,7 @@
 
 
 
-// viariable mismatch
+// variable mismatch
 
 var animal = "dog";
 

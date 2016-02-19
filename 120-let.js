@@ -10,10 +10,10 @@
   let animal = "cat";
 }
 
-typeof animal;  // undefined
+console.log(typeof animal);  // undefined
 
 for (let i = 1; i < 10; i++) {
-  void();
+  void(0);
 }
 
-typeof i;  // undefined
+console.log(typeof i);  // undefined

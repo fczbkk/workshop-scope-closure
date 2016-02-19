@@ -5,7 +5,7 @@
 // applied IIFE
 
 function generateButtons() {
-  buttons = [];
+  var buttons = [];
   for (var i = 0; i < 10; i++) {
     
     (function (button_id) {
@@ -13,7 +13,7 @@ function generateButtons() {
         press: function () {
           console.log("Pressed button #" + button_id);
         }
-      }
+      };
       buttons.push(button);
     })(i);
 
